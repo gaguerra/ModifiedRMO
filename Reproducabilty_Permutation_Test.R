@@ -1,7 +1,7 @@
 # Function to evaluate the reproducabilty of mutational ordering 
 # in the presence of co-occuring mutations and non-independent mutational paths.
 
-# RMO function adpated from Toprak et al 2011
+# RMO function adpated from Toprak et al 2012
 
 # Geno Guerra
 # University of California, Berkeley
@@ -52,7 +52,7 @@ Parse_Path <- function(string_path){
 
 
 
-# Reproducibility of mutational order (RMO) score function (adapted from Toprak et al 2011)
+# Reproducibility of mutational order (RMO) score function (adapted from Toprak et al 2012)
 RMO = function(List_Path,n_groups){
   # Takes in a list of paths
   
