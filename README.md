@@ -2,7 +2,7 @@
 
 This set of R scripts implements the RMO (Reproducibiilty of Mutational Order) score first proposed in Toprak et al (2012) with the new additions of accounting for non-independent mutational pathways (in the presence of shared ancestry), and partially unresolved mutational pathways. 
 
-RMO measures the level of structure in a set of paths, giving positive weight for pairs of mutations when they occur in the same order on two different paths, and negative weight when they occur in opposite orders. A high RMO value indicates high structure, and a low RMO value indicates random ordering. RMO as defined in Toprak et al (2012) assumes independent evolution of lineages, such that all mutations are indpendent of other lineages, and the ordering of all mutations can be resolved, completely. 
+RMO measures the level of structure in a set of paths, giving positive weight for pairs of mutations when they occur in the same order on two different paths, and negative weight when they occur in opposite orders. A high RMO value indicates high structure, and a low RMO value indicates random ordering. RMO as defined in Toprak et al (2012) assumes independent evolution of lineages, such that all mutations are independent of other lineages, and the ordering of all mutations can be resolved, completely. 
 
 In the presence of a species phylogeny, mutations can occur on shared branches, and multiple mutations can occur on the same branch where their order cannot be determined. We here develop a method to make use of RMO in the presence of these two complications. 
 
